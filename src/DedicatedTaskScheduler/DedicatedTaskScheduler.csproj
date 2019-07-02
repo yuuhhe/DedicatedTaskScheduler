@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <RootNamespace>Yuuhhe.DedicatedTaskScheduler</RootNamespace>
+    <AssemblyName>Yuuhhe.DedicatedTaskScheduler</AssemblyName>
+    <Authors>Yuuhhe</Authors>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>TaskScheduler Concurrent ThreadPool</PackageTags>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>True</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Channels" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
